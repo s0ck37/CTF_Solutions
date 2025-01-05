@@ -33,7 +33,6 @@ def loop(target_1,target_2,str_1="",str_2=""):
             if chr(i).lower() == chr(j).lower() and chr(i).isprintable():
                 conclusions_1.append( chr(i) )
                 conclusions_2.append( chr(j) )
-    
 
     for c in range(len(conclusions_1)):
         cstr_1 = str_1
